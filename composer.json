@@ -1,0 +1,26 @@
+{
+    "name": "trumpets/truemvc",
+    "description": "Project base on the TrueMVC Framework.",
+    "keywords": ["framework", "trumpets", "truemvce"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=5.6.4",
+        "truemvc/truemvc": "dev-master"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "autoload-dev": {
+       
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}

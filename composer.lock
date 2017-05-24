@@ -1,0 +1,60 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "a5198f5e46db977099d2583fde7105b0",
+    "content-hash": "e40523d7f1e3feef05a220f48545321d",
+    "packages": [
+        {
+            "name": "truemvc/truemvc",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/abhishek47/truemvc.git",
+                "reference": "3e7550f5e030d31a6bd5cc5350c0fb16ec1c295d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/abhishek47/truemvc/zipball/3e7550f5e030d31a6bd5cc5350c0fb16ec1c295d",
+                "reference": "3e7550f5e030d31a6bd5cc5350c0fb16ec1c295d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.4"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/Trivial/Support/helpers.php"
+                ],
+                "psr-4": {
+                    "Trivial\\": "src/Trivial/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "The TrueMVC Framework.",
+            "keywords": [
+                "framework",
+                "truemvc"
+            ],
+            "time": "2017-05-24 08:22:45"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "truemvc/truemvc": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.6.4"
+    },
+    "platform-dev": []
+}

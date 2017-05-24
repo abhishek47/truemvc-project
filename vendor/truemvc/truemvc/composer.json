@@ -1,0 +1,23 @@
+{
+
+	"name": "truemvc/truemvc",
+    "description": "The TrueMVC Framework.",
+    "keywords": ["framework", "truemvc"],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.6.4"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+       "files": [
+		    "src/Trivial/Support/helpers.php"
+		],
+        "psr-4": {
+            "Trivial\\": "src/Trivial/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+
+}
